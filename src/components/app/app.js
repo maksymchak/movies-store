@@ -1,10 +1,13 @@
 import React, { Fragment } from 'react';
+import { Route, Switch } from 'react-router-dom';
 
 import './app.css';
 
 const App = () => {
   return(
-    <Fragment>     
+    <Fragment>    
+      <Switch> 
+      </Switch> 
     </Fragment>
   );
 };
