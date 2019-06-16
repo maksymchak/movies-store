@@ -1,13 +1,15 @@
 import React, { Fragment } from 'react';
 import { Route, Switch } from 'react-router-dom';
 
+import AppHeader from '../app-header';
 import { About, Movies, Movie, ShoppingCart, NotFound } from '../pages';
 
 import './app.css';
 
 const App = () => {
   return(
-    <Fragment>    
+    <Fragment>   
+      <AppHeader /> 
       <Switch> 
         <Route path="/" component={About} exact />
         <Route path="/movies" component={Movies} exact />
