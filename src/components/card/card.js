@@ -11,7 +11,7 @@ const Card = ({movie, onAddedToCart}) => {
       <div className="col-10 mx-auto my-3 col-lg-4 col-md-6 col-sm-6 card-wrapper">
         <div className="card">
           <div className="card-header">
-            <Link to={`/movies/${slug}`}>
+            <Link to={`/movies-store/${slug}`}>
               <img className="card-img" src={cover} alt="Card" />
             </Link>
           </div>  
