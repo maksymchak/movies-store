@@ -12,7 +12,7 @@ export default class MoviestoreService {
   };
 
   getAllMovies = async () => {
-    const res = await this.getResource('https://api.themoviedb.org/3/movie/popular?api_key=3e14b31f78a5c3b48277270812b2b7fb&language=en-US&page=3');
+    const res = await this.getResource('https://api.themoviedb.org/3/movie/popular?api_key=3e14b31f78a5c3b48277270812b2b7fb&language=en-US&page=5');
     return res.results.map(this._transformMovie);
   };
 
