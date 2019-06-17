@@ -18,7 +18,7 @@ const AppHeader = ({ items }) => {
             <i className="fas fa-video navbar-brand"></i>
           </li>    
           <li className="nav-item ml-5">
-            <Link to="/movies/" className="nav-link">
+            <Link to="/movies-store/" className="nav-link">
               Movies
             </Link>
           </li>                     

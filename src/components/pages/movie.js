@@ -27,7 +27,7 @@ const Movie = ({ match, movies, onAddedToCart }) => {
             <p className="product-info">Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.</p>
           </div>
           <div className="btn-container align-items-end d-flex justify-content-center detail-btn">
-            <Link to="/movies">
+            <Link to="/movies-store">
               <button className = "btn-back-to-product detail-button-back">
                 Back To products
               </button>

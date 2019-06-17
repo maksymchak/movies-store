@@ -1,6 +1,7 @@
 
 # E-commerce Shopping Cart Application
 This is a simple ecommerce movies store application built with React, Redux and React Router.
+
 <b>LIVE:</b> https://maksymchak.github.io/movies-store/
 
 ![Movies Store API](assets/readme_1.png)

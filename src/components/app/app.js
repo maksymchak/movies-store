@@ -12,8 +12,8 @@ const App = () => {
       <AppHeader /> 
       <Switch> 
         <Route path="/" component={About} exact />
-        <Route path="/movies" component={Movies} exact />
-        <Route path="/movies/:movie" component={Movie} />
+        <Route path="/movies-store" component={Movies} exact />
+        <Route path="/movies-store/:movie" component={Movie} />
         <Route path="/cart" component={ShoppingCart} />
         <Route component={NotFound} />
       </Switch> 
